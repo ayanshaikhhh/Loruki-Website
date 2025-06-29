@@ -258,6 +258,7 @@ pre {
 
 
 
+
 /* Docs */
 .docs-main h3{
     margin: 20px 0;
@@ -446,6 +447,14 @@ pre {
 
     .showcase-form {
        width: 300px;
+    }
+
+    .features-head .grid{
+        grid-template-columns: 1fr;
+    }
+
+    .features-sub-head .grid{
+        grid-template-columns: 1fr;
     }
 
 }
