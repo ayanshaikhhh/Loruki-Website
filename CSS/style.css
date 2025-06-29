@@ -449,6 +449,8 @@ pre {
        width: 300px;
     }
 
+
+    /* features */
     .features-head .grid{
         grid-template-columns: 1fr;
     }
@@ -461,12 +463,36 @@ pre {
         text-align: start;
     }
 
-    .footer .grid .social {
+
+    /* foooter */
+    .footer .grid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer .grid .foo-head, .ul, .social{
+        display: flex;
+    }
+
+    .footer .grid .foo-head p, .ul, .social {
+        padding: 9px;
+    }
+
+    .footer .grid .ul li {
+        padding: 9px;
+    }
+
+
+
+
+
+    /* .footer .grid .social {
         display: flex;
         flex-direction: column;
     }
 
     .footer .grid .social a {
         padding: 5px;
-    }
+    } */
 }
